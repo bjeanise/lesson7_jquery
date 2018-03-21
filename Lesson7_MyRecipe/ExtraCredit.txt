@@ -1,0 +1,32 @@
+
+Project Name:  My Recipe Display Application (Lesson 7 Extra Credit)
+
+Course Title: Web Application Development
+
+Assignment Date:  Started March 11, 2018 -- completed March 20, 2018
+
+Student Name:  Barbara Siplin
+
+
+Project Description:
+
+The features added to enhance the Recipe Display Application for this extra
+credit assignment are as follows:
+
+•	A css event changed the h1 header from its original green to “lightskyblue.”
+    Example:	$("h1").css("background-color", "lightskyblue");
+
+•	A DOM traversal enabled display of the first “h3” and last “h3” content 
+    (the recipe ingredients and instructions).
+    
+    Examples:  	    
+    var ingr = ("h3").first();
+    $(this).display('ingr');
+     var instr = $(this).display.last("h3");
+     
+•	Animation example---the appending of the contents of the last h3 element
+    $("this").append (instr);
+  
+•	A double click animation created to allow the reader to view more of the 
+    page--- when viewing the recipe instructions online -- and in anticipation
+    that there may be more recipes or additional information.
